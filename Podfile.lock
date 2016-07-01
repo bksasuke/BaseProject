@@ -14,13 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - MFSideMenu (0.5.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - MFSideMenu
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
 
-PODFILE CHECKSUM: c0164cf49147e607579948349c620ecf20d6d169
+PODFILE CHECKSUM: ac2919b9fbc5a972b108cdfd5c48a24d1b102e5a
 
 COCOAPODS: 1.0.1
