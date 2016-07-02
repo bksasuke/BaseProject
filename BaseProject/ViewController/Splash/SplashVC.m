@@ -23,9 +23,9 @@
         FeedyAccount *account = [[AppController sharedInstance] getAccountFromUserDefault];
         if (account) {
             [[AppDelegate sharedInstance] otherMenu];
-//            HomeVC *homeVC = (HomeVC*) [_appDelegate viewControllerWithIndentifier:@"HomeVC"];
-//            [nav setViewControllers:[NSArray arrayWithObject:homeVC] animated:YES];
-//            [_appDelegate changeRootViewController:nav];
+            HomeVC *homeVC = (HomeVC*) [_appDelegate viewControllerWithIndentifier:@"HomeVC"];
+            [nav setViewControllers:[NSArray arrayWithObject:homeVC] animated:YES];
+            [_appDelegate changeRootViewController:nav];
         }
         else {
             SelectVC *selectVC = (SelectVC *) [_appDelegate viewControllerWithIndentifier:@"SelectVC"];
