@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BaseVC.h"
 
-@interface LeftMenuViewController :UIViewController
+@interface LeftMenuViewController :UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, retain) IBOutlet UITableView *rearTableView;
 
 @end

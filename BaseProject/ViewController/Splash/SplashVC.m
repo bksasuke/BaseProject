@@ -15,7 +15,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self checkAccount];
+    [self performSelector:@selector(checkAccount)
+               withObject:nil afterDelay:3.0];
+    
 }
 
 - ( void) checkAccount {
@@ -23,17 +25,12 @@
         FeedyAccount *account = [[AppController sharedInstance] getAccountFromUserDefault];
         if (account) {
             [[AppDelegate sharedInstance] setupSideMenu];
-//            HomeVC *homeVC = (HomeVC*) [_appDelegate viewControllerWithIndentifier:@"HomeVC"];
-//            [nav setViewControllers:[NSArray arrayWithObject:homeVC] animated:YES];
-//            [_appDelegate changeRootViewController:nav];
         }
         else {
             SelectVC *selectVC = (SelectVC *) [_appDelegate viewControllerWithIndentifier:@"SelectVC"];
             [nav setViewControllers:[NSArray arrayWithObject:selectVC] animated:YES];
-            [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
-                [_appDelegate changeRootViewController:nav];
-            } completion:^(BOOL finished) {
-            }];
+            [_appDelegate changeRootViewController:nav];
+           
             
             
         }

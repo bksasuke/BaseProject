@@ -29,6 +29,8 @@
     
     _storyboard = [Utils mainStoryboard];
     _window.rootViewController = [_storyboard instantiateInitialViewController];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     
     return YES;
 }
@@ -40,11 +42,12 @@
     self.container = (MFSideMenuContainerViewController *)self.window.rootViewController;
     HomeVC *homeVC = (HomeVC*) [self viewControllerWithIndentifier:@"HomeVC"];
                 [nav setViewControllers:[NSArray arrayWithObject:homeVC] animated:YES];
-    //            [_appDelegate changeRootViewController:nav];
     UIViewController *leftSideMenuViewController = [self viewControllerWithIndentifier:@"LeftMenuViewController"];
-    [self.container setLeftMenuViewController:leftSideMenuViewController];
+    UINavigationController *menuNav = [[UINavigationController alloc] initWithRootViewController:leftSideMenuViewController];
+    [self.container setLeftMenuViewController:menuNav];
     [self.container setCenterViewController:nav];
     [self.container setRightMenuViewController:nil];
+    
     
 }
 - (void ) otherMenu {

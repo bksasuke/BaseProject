@@ -24,7 +24,7 @@
 - (void)addLeftMenuButton
 {
     UIButton *leftMenuButton = [[UIButton alloc] init];
-    UIImage *image = [UIImage imageNamed:@"Menu"];
+    UIImage *image = [UIImage imageNamed:@"menu"];
     leftMenuButton.frame = CGRectMake(0.0, 0.0, image.size.width, image.size.height);
     [leftMenuButton setBackgroundImage:image forState:UIControlStateNormal];
     [leftMenuButton addTarget:self action:@selector(onShowLeftMenuAction) forControlEvents:UIControlEventTouchUpInside];
