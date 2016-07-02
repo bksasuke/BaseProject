@@ -8,7 +8,9 @@
 
 #import "HomeVC.h"
 #import "NSString+MD5.h"
-@interface HomeVC ()
+@interface HomeVC () {
+    NSString *token;
+}
 
 @end
 
@@ -18,7 +20,7 @@
     [super viewDidLoad];
     if(!self.title) self.title = @"Demo!";
     [self addLeftMenuButton];
-    [self encodeMD5];
+    [self getData];
     
 }
 
@@ -32,7 +34,36 @@
     NSString *md5 = [myString MD5String];
     NSLog(@"input:%@",key3);
     NSLog(@"%@\n",md5);
+    token =md5;
     
 }
+- (void )getData {
+    [self encodeMD5];
+    
+    NSString *deviceID = [[NSUserDefaults standardUserDefaults] objectForKey:@"deviceID"];
+    NSString *textContent = @"New note";
+    NSString *noteDataString = [NSString stringWithFormat:@"deviceId=%@&textContent=%@", deviceID, textContent];
+    
+    NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    sessionConfiguration.HTTPAdditionalHeaders = @{
+                                                   @"token": @"6116938a786b0a2cd9fbc0c38db8e8bc",
+                                                   @"time" : @"1466669524",
+                                                   @"type" : @"hot",
+                                                   @"cate" :@5,
+                                                   @"city":@1,
+                                                   @"sort": @"rate",
+                                                   @"record": @10,
+                                                   @"page":@0
+                                                   };
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfiguration];
+    NSURL *url = [NSURL URLWithString:@"http://huynhdn.api.foody.vn/restaurant"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    request.HTTPBody = [noteDataString dataUsingEncoding:NSUTF8StringEncoding];
+    request.HTTPMethod = @"POST";
+    NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^( NSData *data, NSURLResponse *response, NSError *error) {
+        NSLog(@"%@",data);
+        // The server answers with an error because it doesn't receive the params
+    }];
+    [postDataTask resume];}
 
 @end

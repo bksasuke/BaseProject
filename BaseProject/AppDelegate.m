@@ -29,32 +29,37 @@
     
     _storyboard = [Utils mainStoryboard];
     _window.rootViewController = [_storyboard instantiateInitialViewController];
-   
+    
     return YES;
 }
 - (void)setupSideMenu
 {
-    _leftSideBar = [[CDRTranslucentSideBar alloc] init];
-    _leftSideBar.sideBarWidth = _window.frame.size.width - 50;
-    _leftSideBar.delegate = self;
+    UINavigationController *nav = (UINavigationController *)[ self viewControllerWithIndentifier:@"NavHome"];
+  
+    self.window.rootViewController = [self viewControllerWithIndentifier:@"MFSideMenuContainerViewController"];
+    self.container = (MFSideMenuContainerViewController *)self.window.rootViewController;
+    HomeVC *homeVC = (HomeVC*) [self viewControllerWithIndentifier:@"HomeVC"];
+                [nav setViewControllers:[NSArray arrayWithObject:homeVC] animated:YES];
+    //            [_appDelegate changeRootViewController:nav];
+    UIViewController *leftSideMenuViewController = [self viewControllerWithIndentifier:@"LeftMenuViewController"];
+    [self.container setLeftMenuViewController:leftSideMenuViewController];
+    [self.container setCenterViewController:nav];
+    [self.container setRightMenuViewController:nil];
     
-    _leftMenu = (LeftMenuViewController *)[self viewControllerWithIndentifier:@"LeftMenuViewController"];
-    _leftMenu.delegate = self;
-    [_leftSideBar setContentViewInSideBar:_leftMenu.view];
 }
 - (void ) otherMenu {
-//    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window = window;
-//    
-//    LeftMenuViewController *leftVC = [LeftMenuViewController new];
-//    MFSideMenuContainerViewController *container = [MFSideMenuContainerViewController
-//                                                    containerWithCenterViewController: [self nav]
-//                                                    leftMenuViewController:leftVC
-//                                                    rightMenuViewController:nil];
-//    self.window.rootViewController = container;
-//    [self.window makeKeyAndVisible];
-//    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window = window;
+    //    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //    self.window = window;
+    //
+    //    LeftMenuViewController *leftVC = [LeftMenuViewController new];
+    //    MFSideMenuContainerViewController *container = [MFSideMenuContainerViewController
+    //                                                    containerWithCenterViewController: [self nav]
+    //                                                    leftMenuViewController:leftVC
+    //                                                    rightMenuViewController:nil];
+    //    self.window.rootViewController = container;
+    //    [self.window makeKeyAndVisible];
+    //    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //    self.window = window;
     
     HomeVC *frontViewController = [[HomeVC alloc] init];
     LeftMenuViewController *rearViewController = [[LeftMenuViewController alloc] init];

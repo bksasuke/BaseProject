@@ -17,9 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _appController = [AppController sharedInstance];
-    
     _appDelegate = [AppDelegate sharedInstance];
-    
     self.navigationController.navigationBar.translucent = NO;
 }
 
@@ -36,7 +34,7 @@
 }
 - (void)onShowLeftMenuAction
 {
-    [_appDelegate.leftSideBar show];
+      [self.menuContainerViewController toggleLeftSideMenuCompletion:nil];
 }
 
 @end

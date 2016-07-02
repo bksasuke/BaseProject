@@ -13,10 +13,8 @@
 		BA26EC0B1D2678B300903B14 /* SelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC0A1D2678B300903B14 /* SelectVC.m */; };
 		BA26EC111D2687F000903B14 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC101D2687F000903B14 /* NSString+MD5.m */; };
 		BA2769531D27624100CE6FC1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2769521D27624100CE6FC1 /* SWRevealViewController.m */; };
-		BA3D7A6C1D26456E00D4D18D /* LeftMenuConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA3D7A671D26456E00D4D18D /* LeftMenuConfig.plist */; };
-		BA3D7A6D1D26456E00D4D18D /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A691D26456E00D4D18D /* LeftMenuViewController.m */; };
-		BA3D7A6E1D26456E00D4D18D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A6B1D26456E00D4D18D /* MenuCell.m */; };
 		BA3D7A711D2645DB00D4D18D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A701D2645DB00D4D18D /* AppController.m */; };
+		BA5DFDF51D27E14B00229968 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5DFDF41D27E14B00229968 /* LeftMenuViewController.m */; };
 		BA619F971D2654CC0077F492 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F961D2654CC0077F492 /* HomeVC.m */; };
 		BA619F9B1D2654FE0077F492 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F991D2654FE0077F492 /* BaseVC.m */; };
 		BA619FA01D26551D0077F492 /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F9E1D26551D0077F492 /* BaseTableVC.m */; };
@@ -45,13 +43,10 @@
 		BA26EC101D2687F000903B14 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		BA2769511D27624100CE6FC1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BA2769521D27624100CE6FC1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		BA3D7A671D26456E00D4D18D /* LeftMenuConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeftMenuConfig.plist; sourceTree = "<group>"; };
-		BA3D7A681D26456E00D4D18D /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
-		BA3D7A691D26456E00D4D18D /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
-		BA3D7A6A1D26456E00D4D18D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
-		BA3D7A6B1D26456E00D4D18D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
 		BA3D7A6F1D2645DB00D4D18D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = BaseProject/AppController.h; sourceTree = "<group>"; };
 		BA3D7A701D2645DB00D4D18D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = BaseProject/AppController.m; sourceTree = "<group>"; };
+		BA5DFDF31D27E14B00229968 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		BA5DFDF41D27E14B00229968 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		BA619F951D2654CC0077F492 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		BA619F961D2654CC0077F492 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		BA619F981D2654FE0077F492 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
@@ -157,11 +152,8 @@
 		BA3D7A661D26453500D4D18D /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				BA3D7A671D26456E00D4D18D /* LeftMenuConfig.plist */,
-				BA3D7A681D26456E00D4D18D /* LeftMenuViewController.h */,
-				BA3D7A691D26456E00D4D18D /* LeftMenuViewController.m */,
-				BA3D7A6A1D26456E00D4D18D /* MenuCell.h */,
-				BA3D7A6B1D26456E00D4D18D /* MenuCell.m */,
+				BA5DFDF31D27E14B00229968 /* LeftMenuViewController.h */,
+				BA5DFDF41D27E14B00229968 /* LeftMenuViewController.m */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -317,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA619FA11D26551D0077F492 /* BaseTableVC.xib in Resources */,
-				BA3D7A6C1D26456E00D4D18D /* LeftMenuConfig.plist in Resources */,
 				BAFA6A1C1D261A8B00ADCB98 /* LaunchScreen.storyboard in Resources */,
 				BAFA6A191D261A8B00ADCB98 /* Assets.xcassets in Resources */,
 				BAFA6A171D261A8B00ADCB98 /* Main.storyboard in Resources */,
@@ -381,10 +372,9 @@
 			files = (
 				BA619F9B1D2654FE0077F492 /* BaseVC.m in Sources */,
 				BAFA6A111D261A8B00ADCB98 /* AppDelegate.m in Sources */,
-				BA3D7A6D1D26456E00D4D18D /* LeftMenuViewController.m in Sources */,
 				BA63C6FF1D2665AC00D117B7 /* Utils.m in Sources */,
-				BA3D7A6E1D26456E00D4D18D /* MenuCell.m in Sources */,
 				BA619FA01D26551D0077F492 /* BaseTableVC.m in Sources */,
+				BA5DFDF51D27E14B00229968 /* LeftMenuViewController.m in Sources */,
 				BA26EC111D2687F000903B14 /* NSString+MD5.m in Sources */,
 				BA26EC081D2673B400903B14 /* FeedyAccount.m in Sources */,
 				BA619F971D2654CC0077F492 /* HomeVC.m in Sources */,
