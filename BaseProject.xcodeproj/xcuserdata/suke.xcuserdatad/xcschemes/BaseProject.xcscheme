@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAFA6A081D261A8B00ADCB98"
-               BuildableName = "BaseProject.app"
+               BuildableName = "Feedy.app"
                BlueprintName = "BaseProject"
                ReferencedContainer = "container:BaseProject.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAFA6A081D261A8B00ADCB98"
-            BuildableName = "BaseProject.app"
+            BuildableName = "Feedy.app"
             BlueprintName = "BaseProject"
             ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAFA6A081D261A8B00ADCB98"
-            BuildableName = "BaseProject.app"
+            BuildableName = "Feedy.app"
             BlueprintName = "BaseProject"
             ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAFA6A081D261A8B00ADCB98"
-            BuildableName = "BaseProject.app"
+            BuildableName = "Feedy.app"
             BlueprintName = "BaseProject"
             ReferencedContainer = "container:BaseProject.xcodeproj">
          </BuildableReference>

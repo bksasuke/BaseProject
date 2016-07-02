@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A0D9C0FA99ADC5891342F172 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69446E34A27EC4DFC3747F95 /* libPods-BaseProject.a */; };
+		BA26EC051D26713100903B14 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC041D26713100903B14 /* SplashVC.m */; };
+		BA26EC081D2673B400903B14 /* FeedyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC071D2673B400903B14 /* FeedyAccount.m */; };
+		BA26EC0B1D2678B300903B14 /* SelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC0A1D2678B300903B14 /* SelectVC.m */; };
+		BA26EC111D2687F000903B14 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BA26EC101D2687F000903B14 /* NSString+MD5.m */; };
+		BA2769531D27624100CE6FC1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2769521D27624100CE6FC1 /* SWRevealViewController.m */; };
 		BA3D7A6C1D26456E00D4D18D /* LeftMenuConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA3D7A671D26456E00D4D18D /* LeftMenuConfig.plist */; };
 		BA3D7A6D1D26456E00D4D18D /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A691D26456E00D4D18D /* LeftMenuViewController.m */; };
 		BA3D7A6E1D26456E00D4D18D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A6B1D26456E00D4D18D /* MenuCell.m */; };
 		BA3D7A711D2645DB00D4D18D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3D7A701D2645DB00D4D18D /* AppController.m */; };
+		BA619F971D2654CC0077F492 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F961D2654CC0077F492 /* HomeVC.m */; };
+		BA619F9B1D2654FE0077F492 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F991D2654FE0077F492 /* BaseVC.m */; };
+		BA619FA01D26551D0077F492 /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA619F9E1D26551D0077F492 /* BaseTableVC.m */; };
+		BA619FA11D26551D0077F492 /* BaseTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA619F9F1D26551D0077F492 /* BaseTableVC.xib */; };
+		BA63C6FC1D26636600D117B7 /* CDRTranslucentSideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA63C6FB1D26636600D117B7 /* CDRTranslucentSideBar.m */; };
+		BA63C6FF1D2665AC00D117B7 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA63C6FE1D2665AC00D117B7 /* Utils.m */; };
 		BAFA6A0E1D261A8B00ADCB98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA6A0D1D261A8B00ADCB98 /* main.m */; };
 		BAFA6A111D261A8B00ADCB98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA6A101D261A8B00ADCB98 /* AppDelegate.m */; };
 		BAFA6A171D261A8B00ADCB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFA6A151D261A8B00ADCB98 /* Main.storyboard */; };
@@ -23,21 +34,44 @@
 		1249C9D2829001084C4C0BB9 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		47DB0548A9243CE74C3E59EC /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		69446E34A27EC4DFC3747F95 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA26EC031D26713100903B14 /* SplashVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
+		BA26EC041D26713100903B14 /* SplashVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
+		BA26EC061D2673B400903B14 /* FeedyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedyAccount.h; sourceTree = "<group>"; };
+		BA26EC071D2673B400903B14 /* FeedyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedyAccount.m; sourceTree = "<group>"; };
+		BA26EC091D2678B300903B14 /* SelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectVC.h; sourceTree = "<group>"; };
+		BA26EC0A1D2678B300903B14 /* SelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectVC.m; sourceTree = "<group>"; };
+		BA26EC0C1D26835200903B14 /* Feedy.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feedy.pch; sourceTree = "<group>"; };
+		BA26EC0F1D2687F000903B14 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		BA26EC101D2687F000903B14 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		BA2769511D27624100CE6FC1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BA2769521D27624100CE6FC1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		BA3D7A671D26456E00D4D18D /* LeftMenuConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeftMenuConfig.plist; sourceTree = "<group>"; };
 		BA3D7A681D26456E00D4D18D /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
 		BA3D7A691D26456E00D4D18D /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		BA3D7A6A1D26456E00D4D18D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
 		BA3D7A6B1D26456E00D4D18D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
-		BA3D7A6F1D2645DB00D4D18D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		BA3D7A701D2645DB00D4D18D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		BAFA6A091D261A8B00ADCB98 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFA6A0D1D261A8B00ADCB98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BAFA6A0F1D261A8B00ADCB98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BAFA6A101D261A8B00ADCB98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA3D7A6F1D2645DB00D4D18D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = BaseProject/AppController.h; sourceTree = "<group>"; };
+		BA3D7A701D2645DB00D4D18D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = BaseProject/AppController.m; sourceTree = "<group>"; };
+		BA619F951D2654CC0077F492 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		BA619F961D2654CC0077F492 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		BA619F981D2654FE0077F492 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		BA619F991D2654FE0077F492 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		BA619F9D1D26551D0077F492 /* BaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableVC.h; sourceTree = "<group>"; };
+		BA619F9E1D26551D0077F492 /* BaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableVC.m; sourceTree = "<group>"; };
+		BA619F9F1D26551D0077F492 /* BaseTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableVC.xib; sourceTree = "<group>"; };
+		BA63C6FA1D26636600D117B7 /* CDRTranslucentSideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRTranslucentSideBar.h; sourceTree = "<group>"; };
+		BA63C6FB1D26636600D117B7 /* CDRTranslucentSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRTranslucentSideBar.m; sourceTree = "<group>"; };
+		BA63C6FD1D2665AC00D117B7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		BA63C6FE1D2665AC00D117B7 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		BA63C7051D266DC200D117B7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BAFA6A091D261A8B00ADCB98 /* Feedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFA6A0D1D261A8B00ADCB98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaseProject/main.m; sourceTree = "<group>"; };
+		BAFA6A0F1D261A8B00ADCB98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BaseProject/AppDelegate.h; sourceTree = "<group>"; };
+		BAFA6A101D261A8B00ADCB98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BaseProject/AppDelegate.m; sourceTree = "<group>"; };
 		BAFA6A161D261A8B00ADCB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAFA6A181D261A8B00ADCB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFA6A181D261A8B00ADCB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BaseProject/Assets.xcassets; sourceTree = "<group>"; };
 		BAFA6A1B1D261A8B00ADCB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BAFA6A1D1D261A8B00ADCB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFA6A1D1D261A8B00ADCB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaseProject/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,38 +89,55 @@
 		74B3CC36975D76D0BC6CB789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69446E34A27EC4DFC3747F95 /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA3D7A611D2644C400D4D18D /* FrameWorks */ = {
+		BA26EC0D1D26876600903B14 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = FrameWorks;
-			path = BaseProject/FrameWorks;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BA26EC0E1D26877B00903B14 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA26EC0F1D2687F000903B14 /* NSString+MD5.h */,
+				BA26EC101D2687F000903B14 /* NSString+MD5.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BA3D7A621D2644CE00D4D18D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BA619F981D2654FE0077F492 /* BaseVC.h */,
+				BA619F991D2654FE0077F492 /* BaseVC.m */,
+				BA619F9D1D26551D0077F492 /* BaseTableVC.h */,
+				BA619F9E1D26551D0077F492 /* BaseTableVC.m */,
+				BA619F9F1D26551D0077F492 /* BaseTableVC.xib */,
+				BA63C6FD1D2665AC00D117B7 /* Utils.h */,
+				BA63C6FE1D2665AC00D117B7 /* Utils.m */,
 			);
-			name = Common;
-			path = BaseProject/Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		BA3D7A631D2644CE00D4D18D /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BA2769511D27624100CE6FC1 /* SWRevealViewController.h */,
+				BA2769521D27624100CE6FC1 /* SWRevealViewController.m */,
+				BA63C6F91D26636600D117B7 /* CDRTranslucentSideBar */,
 			);
-			name = Libs;
-			path = BaseProject/Libs;
+			path = Libs;
 			sourceTree = "<group>";
 		};
 		BA3D7A641D2644CE00D4D18D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA26EC061D2673B400903B14 /* FeedyAccount.h */,
+				BA26EC071D2673B400903B14 /* FeedyAccount.m */,
 			);
 			name = Model;
 			path = BaseProject/Model;
@@ -95,7 +146,9 @@
 		BA3D7A651D2644CE00D4D18D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BA619F941D2654B00077F492 /* Home */,
 				BA3D7A661D26453500D4D18D /* Menu */,
+				BA63C7011D266BEE00D117B7 /* Splash */,
 			);
 			name = ViewController;
 			path = BaseProject/ViewController;
@@ -113,30 +166,36 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		BA619F941D2654B00077F492 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA619F951D2654CC0077F492 /* HomeVC.h */,
+				BA619F961D2654CC0077F492 /* HomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA63C6F91D26636600D117B7 /* CDRTranslucentSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				BA63C6FA1D26636600D117B7 /* CDRTranslucentSideBar.h */,
+				BA63C6FB1D26636600D117B7 /* CDRTranslucentSideBar.m */,
+			);
+			path = CDRTranslucentSideBar;
+			sourceTree = "<group>";
+		};
+		BA63C7011D266BEE00D117B7 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BA26EC031D26713100903B14 /* SplashVC.h */,
+				BA26EC041D26713100903B14 /* SplashVC.m */,
+				BA26EC091D2678B300903B14 /* SelectVC.h */,
+				BA26EC0A1D2678B300903B14 /* SelectVC.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		BAFA6A001D261A8B00ADCB98 = {
-			isa = PBXGroup;
-			children = (
-				BAFA6A0B1D261A8B00ADCB98 /* BaseProject */,
-				BA3D7A621D2644CE00D4D18D /* Common */,
-				BA3D7A631D2644CE00D4D18D /* Libs */,
-				BA3D7A641D2644CE00D4D18D /* Model */,
-				BA3D7A651D2644CE00D4D18D /* ViewController */,
-				BA3D7A611D2644C400D4D18D /* FrameWorks */,
-				BAFA6A0A1D261A8B00ADCB98 /* Products */,
-				E40AEA2310EA9626B7C4865A /* Pods */,
-				74B3CC36975D76D0BC6CB789 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		BAFA6A0A1D261A8B00ADCB98 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BAFA6A091D261A8B00ADCB98 /* BaseProject.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BAFA6A0B1D261A8B00ADCB98 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
 				BAFA6A0F1D261A8B00ADCB98 /* AppDelegate.h */,
@@ -144,6 +203,35 @@
 				BA3D7A6F1D2645DB00D4D18D /* AppController.h */,
 				BA3D7A701D2645DB00D4D18D /* AppController.m */,
 				BAFA6A151D261A8B00ADCB98 /* Main.storyboard */,
+				BAFA6A0B1D261A8B00ADCB98 /* BaseProject */,
+				BA3D7A641D2644CE00D4D18D /* Model */,
+				BA3D7A651D2644CE00D4D18D /* ViewController */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFA6A0A1D261A8B00ADCB98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69446E34A27EC4DFC3747F95 /* libPods-BaseProject.a */,
+				BAFA6A181D261A8B00ADCB98 /* Assets.xcassets */,
+				BAFA6A1A1D261A8B00ADCB98 /* LaunchScreen.storyboard */,
+				BAFA6A1D1D261A8B00ADCB98 /* Info.plist */,
+				BAFA6A0D1D261A8B00ADCB98 /* main.m */,
+				E40AEA2310EA9626B7C4865A /* Pods */,
+				74B3CC36975D76D0BC6CB789 /* Frameworks */,
+				BAFA6A091D261A8B00ADCB98 /* Feedy.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BAFA6A0B1D261A8B00ADCB98 /* BaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				BA26EC0E1D26877B00903B14 /* Category */,
+				BA26EC0D1D26876600903B14 /* Service */,
+				BA3D7A621D2644CE00D4D18D /* Common */,
+				BA3D7A631D2644CE00D4D18D /* Libs */,
 				BAFA6A0C1D261A8B00ADCB98 /* Supporting Files */,
 			);
 			path = BaseProject;
@@ -152,10 +240,9 @@
 		BAFA6A0C1D261A8B00ADCB98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAFA6A181D261A8B00ADCB98 /* Assets.xcassets */,
-				BAFA6A1A1D261A8B00ADCB98 /* LaunchScreen.storyboard */,
-				BAFA6A1D1D261A8B00ADCB98 /* Info.plist */,
-				BAFA6A0D1D261A8B00ADCB98 /* main.m */,
+				BA63C7051D266DC200D117B7 /* Constant.h */,
+				BA26EC0C1D26835200903B14 /* Feedy.pch */,
+				BAFA6A0A1D261A8B00ADCB98 /* Products */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,7 +276,7 @@
 			);
 			name = BaseProject;
 			productName = BaseProject;
-			productReference = BAFA6A091D261A8B00ADCB98 /* BaseProject.app */;
+			productReference = BAFA6A091D261A8B00ADCB98 /* Feedy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -229,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA619FA11D26551D0077F492 /* BaseTableVC.xib in Resources */,
 				BA3D7A6C1D26456E00D4D18D /* LeftMenuConfig.plist in Resources */,
 				BAFA6A1C1D261A8B00ADCB98 /* LaunchScreen.storyboard in Resources */,
 				BAFA6A191D261A8B00ADCB98 /* Assets.xcassets in Resources */,
@@ -291,11 +379,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA619F9B1D2654FE0077F492 /* BaseVC.m in Sources */,
 				BAFA6A111D261A8B00ADCB98 /* AppDelegate.m in Sources */,
 				BA3D7A6D1D26456E00D4D18D /* LeftMenuViewController.m in Sources */,
+				BA63C6FF1D2665AC00D117B7 /* Utils.m in Sources */,
 				BA3D7A6E1D26456E00D4D18D /* MenuCell.m in Sources */,
+				BA619FA01D26551D0077F492 /* BaseTableVC.m in Sources */,
+				BA26EC111D2687F000903B14 /* NSString+MD5.m in Sources */,
+				BA26EC081D2673B400903B14 /* FeedyAccount.m in Sources */,
+				BA619F971D2654CC0077F492 /* HomeVC.m in Sources */,
+				BA63C6FC1D26636600D117B7 /* CDRTranslucentSideBar.m in Sources */,
+				BA2769531D27624100CE6FC1 /* SWRevealViewController.m in Sources */,
+				BA26EC0B1D2678B300903B14 /* SelectVC.m in Sources */,
 				BA3D7A711D2645DB00D4D18D /* AppController.m in Sources */,
 				BAFA6A0E1D261A8B00ADCB98 /* main.m in Sources */,
+				BA26EC051D26713100903B14 /* SplashVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +406,7 @@
 				BAFA6A161D261A8B00ADCB98 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BaseProject;
 			sourceTree = "<group>";
 		};
 		BAFA6A1A1D261A8B00ADCB98 /* LaunchScreen.storyboard */ = {
@@ -316,6 +415,7 @@
 				BAFA6A1B1D261A8B00ADCB98 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BaseProject;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,12 +507,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47DB0548A9243CE74C3E59EC /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseProject/Feedy.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeLovers.BaseProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Feedy;
 			};
 			name = Debug;
 		};
@@ -420,12 +523,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1249C9D2829001084C4C0BB9 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseProject/Feedy.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeLovers.BaseProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Feedy;
 			};
 			name = Release;
 		};

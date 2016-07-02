@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "FeedyAccount.h"
 @interface AppController : NSObject
 
++ (AppController *)sharedInstance;
+- (void)storeAccountToUserDefault:(FeedyAccount *)account;
+- (FeedyAccount *)getAccountFromUserDefault;
 @end

@@ -10,7 +10,7 @@
 //#import "Utils.h"
 //#import "HomeViewController.h"
 //#import "ProfileViewController.h"
-//#import "NorinaAccount.h"
+//#import "FeedyAccount.h"
 //#import "SubmitTripViewController.h"
 #import "MenuCell.h"
 #import "AppController.h"
