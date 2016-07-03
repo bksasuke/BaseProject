@@ -11,6 +11,9 @@
 #import "HomeVC.h"
 
 @implementation SelectVC
+- (void ) viewWillAppear:(BOOL)animated {
+    [self.navigationController.navigationBar setHidden:YES];
+}
 - (IBAction)clickRestaurant:(id)sender {
     [self showHome];
 }
@@ -22,11 +25,6 @@
 - (void)showHome {
     FeedyAccount *acc = [FeedyAccount new];
     [_appController storeAccountToUserDefault:acc];
-//    UINavigationController *nav = (UINavigationController *)[_appDelegate viewControllerWithIndentifier:@"NavHome"];
-//    HomeVC *masterVC = (HomeVC *)[_appDelegate viewControllerWithIndentifier:@"HomeVC"];
-//    [nav setViewControllers:[NSArray arrayWithObject:masterVC] animated:YES];
-//    
-//    [_appDelegate changeRootViewController:nav];
     [[AppDelegate sharedInstance] setupSideMenu];
     
 }

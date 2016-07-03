@@ -82,8 +82,8 @@
 		BA619F9F1D26551D0077F492 /* BaseTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableVC.xib; sourceTree = "<group>"; };
 		BA63C6FA1D26636600D117B7 /* CDRTranslucentSideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRTranslucentSideBar.h; sourceTree = "<group>"; };
 		BA63C6FB1D26636600D117B7 /* CDRTranslucentSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRTranslucentSideBar.m; sourceTree = "<group>"; };
-		BA63C6FD1D2665AC00D117B7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		BA63C6FE1D2665AC00D117B7 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		BA63C6FD1D2665AC00D117B7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = ../Common/Utils.h; sourceTree = "<group>"; };
+		BA63C6FE1D2665AC00D117B7 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = ../Common/Utils.m; sourceTree = "<group>"; };
 		BA63C7051D266DC200D117B7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		BAFA6A091D261A8B00ADCB98 /* Feedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFA6A0D1D261A8B00ADCB98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaseProject/main.m; sourceTree = "<group>"; };
@@ -128,6 +128,8 @@
 		BA26EC0D1D26876600903B14 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				BA63C6FD1D2665AC00D117B7 /* Utils.h */,
+				BA63C6FE1D2665AC00D117B7 /* Utils.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -183,8 +185,6 @@
 				BA619F9D1D26551D0077F492 /* BaseTableVC.h */,
 				BA619F9E1D26551D0077F492 /* BaseTableVC.m */,
 				BA619F9F1D26551D0077F492 /* BaseTableVC.xib */,
-				BA63C6FD1D2665AC00D117B7 /* Utils.h */,
-				BA63C6FE1D2665AC00D117B7 /* Utils.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HuL-vl-mOL">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l92-Ei-pjb">
-                                <rect key="frame" x="0.0" y="20" width="320" height="250"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="270"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PT-0k-ybP">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
@@ -32,10 +32,10 @@
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.87058823529999996" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CYm-yk-4GW">
-                                <rect key="frame" x="0.0" y="280" width="320" height="280"/>
+                                <rect key="frame" x="0.0" y="290" width="320" height="280"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gd-Z5-GI8">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <state key="normal" title="Công thức">
                                             <color key="titleColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sPw-hk-36Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1135" y="292"/>
+            <point key="canvasLocation" x="1236" y="292"/>
         </scene>
         <!--SplashVC-->
         <scene sceneID="tne-QT-ifu">
@@ -206,6 +206,7 @@
         <!--Navigation Controller-->
         <scene sceneID="zDL-Ja-PFr">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cH5-jq-bFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="NavLogin" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="HuL-vl-mOL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kwb-Rq-7Eu">
@@ -213,8 +214,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KDD-JL-Eig"/>
+                    </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cH5-jq-bFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="172" y="292"/>
         </scene>
