@@ -12,7 +12,8 @@
 
 @implementation SelectVC
 - (void ) viewWillAppear:(BOOL)animated {
-    [self.navigationController.navigationBar setHidden:YES];
+//    [self.navigationController.navigationBar setHidden:YES];
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 - (IBAction)clickRestaurant:(id)sender {
     [self showHome];
