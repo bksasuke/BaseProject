@@ -1,0 +1,28 @@
+//
+//  Feedy.pch
+//  BaseProject
+//
+//  Created by suke on 7/1/16.
+//  Copyright © 2016 suke. All rights reserved.
+//
+
+#ifndef Feedy_pch
+#define Feedy_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "Constant.h"
+//#import "ColorUtils.h"
+#import "Utils.h"
+#import "Constant.h"
+#import "BaseVC.h"
+
+#define ScreenWidth                 [UIScreen mainScreen].applicationFrame.size.width
+#define ScreenHeight                [UIScreen mainScreen].applicationFrame.size.height
+
+#endif
+#endif /* Feedy_pch */

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60A2AC2881E4733B5B43F0C7A32D909CE2F50A11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60A2AC2881E4733B5B43F0C7A32D909CE2F50A11" : 0,
+    "AF792200673DAF0A9D4EEC4988F7B4765BB33775" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "66223ACA-8EB5-4BCC-8F13-B4C02EA0A048",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60A2AC2881E4733B5B43F0C7A32D909CE2F50A11" : "Base%20Folder\/",
+    "AF792200673DAF0A9D4EEC4988F7B4765BB33775" : "Norina\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BaseProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BaseProject.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bksasuke\/BaseProject",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60A2AC2881E4733B5B43F0C7A32D909CE2F50A11"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.codelovers.vn\/zto_ridesharing\/zto-ridesharing-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF792200673DAF0A9D4EEC4988F7B4765BB33775"
+    }
+  ]
+}
