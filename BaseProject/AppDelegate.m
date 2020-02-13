@@ -51,18 +51,6 @@
     
 }
 - (void ) otherMenu {
-    //    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    //    self.window = window;
-    //
-    //    LeftMenuViewController *leftVC = [LeftMenuViewController new];
-    //    MFSideMenuContainerViewController *container = [MFSideMenuContainerViewController
-    //                                                    containerWithCenterViewController: [self nav]
-    //                                                    leftMenuViewController:leftVC
-    //                                                    rightMenuViewController:nil];
-    //    self.window.rootViewController = container;
-    //    [self.window makeKeyAndVisible];
-    //    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    //    self.window = window;
     
     HomeVC *frontViewController = [[HomeVC alloc] init];
     LeftMenuViewController *rearViewController = [[LeftMenuViewController alloc] init];
